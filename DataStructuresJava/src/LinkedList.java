@@ -68,10 +68,10 @@ public class LinkedList
 			{
 				n = n.next;
 			}
-			n1 = n.next;
-			n.next = n1.next;
+			
+			n.next = (n.next).next;//we dont want n1 this will automatically eligible for garbage collection
 			//System.out.println("n1 " + n1.data);
-			n1 = null;
+			
 		}
 	}
 	
