@@ -28,7 +28,6 @@ public class LinkedList
 	{
 		Node node = new Node();
 		node.data = data;
-		node.next = null;
 		node.next = head;
 		head = node;
 	}
