@@ -35,7 +35,7 @@ public class LinkedList
 	
 	public void insertAt(int index,int data)
 	{
-		Node node = new Node();
+		Node node = new Node(); //create node
 		node.data = data;
 		node.next = null;
 		
