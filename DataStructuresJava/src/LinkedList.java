@@ -79,11 +79,11 @@ public class LinkedList
 	{
 		Node node = head;
 		
-		while(node.next!=null)
+		while(node!=null)
 		{
 			System.out.println(node.data);
 			node = node.next;
 		}
-		System.out.println(node.data);
+	
 	}
 }
