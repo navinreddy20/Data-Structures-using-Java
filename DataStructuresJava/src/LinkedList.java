@@ -86,4 +86,15 @@ public class LinkedList
 		}
 		System.out.println(node.data);
 	}
+	
+	public void reverseList() {
+		Node currnode = head, nextnode = head, prevnode = null;
+		while(nextnode != null) {
+			nextnode = nextnode.next;
+			currnode.next = prevnode;
+			prevnode = currnode;
+			currnode = nextnode;
+		}
+		head = prevnode;
+	}
 }
