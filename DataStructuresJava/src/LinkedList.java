@@ -1,6 +1,7 @@
 
 
 //this is a simmple implementation of a linked list in java 
+//linked list is a linear data structure where each element is a separate object 
 public class LinkedList 
 {
 	Node head;
