@@ -1,4 +1,6 @@
 
+
+//this is a simmple implementation of a linked list in java 
 public class LinkedList 
 {
 	Node head;
