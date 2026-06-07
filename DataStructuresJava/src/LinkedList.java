@@ -85,5 +85,9 @@ public class LinkedList
 			node = node.next;
 		}
 		System.out.println(node.data);
+		
+		System.out.println("Hello World!");
+		System.out.println("Hello World1!");
+		System.out.println("Hello World2!");
 	}
 }
